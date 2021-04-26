@@ -69,6 +69,7 @@ header {
   text-align: center;
   font-size: 32px;
   color: #000000;
+  font-family: "Raleway", sans-serif;
 }
 
 .heading::after {
