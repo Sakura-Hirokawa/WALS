@@ -315,6 +315,7 @@ footer {
 
   .boxes {
     display: block;
+    width: 90%;
     padding-bottom: 90px;
   }
 
@@ -366,5 +367,19 @@ footer {
   /* Profile */
   #profile {
     width: 90%;
+  }
+  .profile-box {
+    display: block;
+  }
+
+  .left-content,
+  .right-content {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .description-title:first-child {
+    margin-top: 20px;
   }
 }
