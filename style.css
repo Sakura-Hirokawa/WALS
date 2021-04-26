@@ -271,22 +271,23 @@ header {
 
 /* Footer */
 footer {
+  width: 100%;
   height: 60px;
   background-color: #ec715f;
+  line-height: 60px;
 }
 
 .footer-text {
   font-size: 16px;
   color: #fafafa;
   text-align: center;
-  line-height: 60px;
 }
 
 @media screen and (max-width: 768px) {
   .container {
     width: 90%;
   }
-
+  /* Header */
   header {
     width: 90%;
     height: 50px;
@@ -296,6 +297,7 @@ footer {
     height: 50px;
   }
 
+  /* Main-visual */
   #main-visual {
     width: 90%;
     background-image: url(img/code.png);
@@ -396,6 +398,11 @@ footer {
 
   .left-contact-content,
   .right-contact-content {
+    width: 90%;
+  }
+
+  /* Footer */
+  footer {
     width: 90%;
   }
 }
