@@ -201,6 +201,7 @@ header {
   padding-bottom: 90px;
 }
 
+/* profile,contact */
 .left-content {
   width: 50%;
 }
@@ -213,25 +214,38 @@ header {
   background-image: url(img/my-icon.jpg);
 }
 
+/* profile,contact */
 .right-content {
   width: 50%;
 }
 
-.profile-title {
+.description-title {
   margin: 20px 0 5px 0;
 }
 
-.profile-title:first-child {
+.description-title:first-child {
   margin-top: 0px;
 }
 
-.profile-text {
+.description-text {
   font-size: 16px;
 }
 
-.contact {
+/* contact */
+#contact {
   height: 500px;
   background-color: lightgreen;
+}
+
+.contact-box {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
 }
 
 footer {
