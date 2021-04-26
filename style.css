@@ -289,7 +289,6 @@ footer {
   }
   /* Header */
   header {
-    width: 90%;
     height: 50px;
   }
 
@@ -297,9 +296,22 @@ footer {
     height: 50px;
   }
 
+  .menu-box {
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+
+  .nav-list-item {
+    display: none;
+  }
+
   /* Main-visual */
   #main-visual {
-    width: 90%;
     background-image: url(img/code.png);
   }
 
@@ -312,14 +324,11 @@ footer {
   }
 
   /* Portfolio */
-  #portfolio {
-    width: 90%;
-  }
-
   .boxes {
     display: block;
-    width: 90%;
     padding-bottom: 90px;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .box {
@@ -347,13 +356,9 @@ footer {
   }
 
   /* Feature */
-  #feature {
-    width: 90%;
-  }
-
   .strength-boxes {
     display: block;
-    width: 90%;
+    width: 100%;
     padding-bottom: 90px;
   }
 
@@ -368,11 +373,9 @@ footer {
   }
 
   /* Profile */
-  #profile {
-    width: 90%;
-  }
   .profile-box {
     display: block;
+    width: 100%;
   }
 
   .left-content,
@@ -387,22 +390,13 @@ footer {
   }
 
   /* Contact */
-  #contact {
-    width: 90%;
-  }
-
   .contact-box {
     display: block;
-    width: 90%;
+    width: 100%;
   }
 
   .left-contact-content,
   .right-contact-content {
-    width: 90%;
-  }
-
-  /* Footer */
-  footer {
     width: 90%;
   }
 }
