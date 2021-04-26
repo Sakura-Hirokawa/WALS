@@ -280,3 +280,27 @@ footer {
   text-align: center;
   line-height: 60px;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 90%;
+    height: 50px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  #main-visual {
+    width: 90%;
+    background-image: url(img/code.png);
+  }
+
+  .mv-text {
+    font-size: 40px;
+  }
+
+  .mv-text {
+    font-size: 18px;
+  }
+}
