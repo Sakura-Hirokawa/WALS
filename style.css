@@ -196,6 +196,39 @@ header {
   background-color: #eceff1;
 }
 
+.profile-box {
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+
+.right-content {
+  width: 50%;
+}
+
+.profile-title {
+  margin: 20px 0 5px 0;
+}
+
+.profile-title:first-child {
+  margin-top: 0px;
+}
+
+.profile-text {
+  font-size: 16px;
+}
+
 .contact {
   height: 500px;
   background-color: lightgreen;
