@@ -191,8 +191,8 @@ header {
   text-align: left;
 }
 
-.profile {
-  height: 500px;
+/* main,profile */
+#profile {
   background-color: #eceff1;
 }
 
