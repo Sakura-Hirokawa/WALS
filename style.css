@@ -81,6 +81,12 @@ header {
   background-color: #ec715f;
 }
 
+.heading-text {
+  margin: 30px auto 30px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
 .feature {
   height: 800px;
   background-color: lightblue;
