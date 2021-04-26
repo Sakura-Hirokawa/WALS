@@ -148,10 +148,6 @@ header {
 }
 
 /* main,feature */
-#feature {
-  background-color: lightblue;
-}
-
 .strength-boxes {
   display: flex;
   width: 980px;
@@ -166,8 +162,22 @@ header {
   text-align: center;
 }
 
+.strength:last-child {
+  margin-right: 0;
+}
+
 .fa-code::before {
   content: "\f121";
+  font-family: FontAwesome;
+}
+
+.fa-desktop::before {
+  content: "\f108";
+  font-family: FontAwesome;
+}
+
+.fa-cogs::before {
+  content: "\f085";
   font-family: FontAwesome;
 }
 
