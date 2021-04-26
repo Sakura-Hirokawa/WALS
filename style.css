@@ -269,6 +269,7 @@ header {
   font-family: FontAwesome;
 }
 
+/* Footer */
 footer {
   height: 60px;
   background-color: #ec715f;
@@ -381,5 +382,20 @@ footer {
 
   .description-title:first-child {
     margin-top: 20px;
+  }
+
+  /* Contact */
+  #contact {
+    width: 90%;
+  }
+
+  .contact-box {
+    display: block;
+    width: 90%;
+  }
+
+  .left-contact-content,
+  .right-contact-content {
+    width: 90%;
   }
 }
