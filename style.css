@@ -9,11 +9,6 @@
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-  color: #fafafa;
-}
-
 /* header */
 header {
   width: 100%;
@@ -39,7 +34,11 @@ header {
   line-height: 70px;
   padding: 0 30px;
   font-size: 16px;
+}
+
+.nav-list-item a {
   color: #fafafa;
+  text-decoration: none;
 }
 
 /* main-visual */
@@ -247,6 +246,11 @@ header {
 .left-contact-content {
   width: 130px;
   margin: 0 auto;
+}
+
+.link-text {
+  color: #212121;
+  text-decoration: underline;
 }
 
 .right-contact-content {
