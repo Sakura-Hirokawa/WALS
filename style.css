@@ -295,7 +295,7 @@ footer {
   .logo {
     height: 50px;
   }
-
+  /* ハンバーガーメニュー */
   .menu-box {
     width: 40px;
     height: 40px;
@@ -304,6 +304,18 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: auto;
+  }
+
+  .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+
+  .list-bar:first-child {
+    margin-top: 10px;
   }
 
   .nav-list-item {
@@ -327,12 +339,7 @@ footer {
   .boxes {
     display: block;
     padding-bottom: 90px;
-    margin: 0 auto;
-    width: 100%;
-  }
-
-  .box {
-    margin-right: 0px;
+    width: 300px;
   }
 
   .box:nth-child(1),
