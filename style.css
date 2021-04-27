@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
 /* header */
 header {
   width: 100%;
